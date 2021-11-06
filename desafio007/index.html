@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexivel</title>
+</head>
+<body>
+ <h1>Imagem flexivel</h1> 
+ <p>De uma olhadinha no site ao lado, ele é o seu proximo desafio.</p>
+ <p>Quando a janela esta bem pequena, mostre uma imagem mas estreita, que nao ocupe tanto espaço.</p>
+ <p>Porem, quando o usuario aumentar a largura do navegador, você pode substituir a imagem menos ampla por uma maior.</p>
+ <p>E isso tudo, sem programação, sem Javascript, sem linhas de codigo grandes e cansativas.</p>
+ <p>É so da uma olhada nas versões a seguir, com um navegaor com mais espaço interno.</p>
+ <h1>Imagem flexivel</h1>
+ <p>Você esta vendo a imagem completa? Experimente  aumenta o tamanho da sua janela para aproveitar a melhor experiencia. &#x1F60A;</p>
+ <picture>
+     <source media="(max-width:750px)" srcset="imagens/p.png" type="image/png">
+     <source media="(max-width:1050px)" srcset="imagens/m.png" type="image/png">
+     <img src="imagens/g.png" alt="imagem flexivel">
+ </picture>
+</body>
+</html>
